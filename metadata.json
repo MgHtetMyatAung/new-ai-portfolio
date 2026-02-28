@@ -1,0 +1,5 @@
+{
+  "name": "Modern Developer Portfolio",
+  "description": "A modern developer portfolio with bento-grid layout, dark/light mode, and i18n support.",
+  "requestFramePermissions": []
+}
