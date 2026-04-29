@@ -4,7 +4,6 @@ import { motion } from "motion/react";
 import { useLanguage } from "./language-provider";
 import Image from "next/image";
 import { Download } from "lucide-react";
-import Photo from "@/assets/about.jpg";
 
 export function About() {
   const { t } = useLanguage();
@@ -50,7 +49,7 @@ export function About() {
           <div className="relative aspect-square max-w-md mx-auto rounded-3xl overflow-hidden bg-zinc-100 dark:bg-zinc-900 border border-zinc-200 dark:border-zinc-800">
             <div className="absolute inset-0 bg-gradient-to-tr from-indigo-500/20 to-emerald-500/20 mix-blend-overlay z-10" />
             <Image
-              src={Photo}
+              src="https://picsum.photos/800/800?random=5"
               alt="About me"
               fill
               referrerPolicy="no-referrer"

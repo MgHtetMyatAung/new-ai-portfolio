@@ -9,9 +9,49 @@ import { SmoothScrolling } from "@/components/smooth-scrolling";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  title: "Modern Developer Portfolio",
-  description:
-    "A modern developer portfolio with bento-grid layout, dark/light mode, and i18n support.",
+  metadataBase: new URL('https://htetmyataung.com'),
+  title: {
+    default: "Htet Myat Aung | Senior Web Engineer & Product Designer",
+    template: "%s | Htet Myat Aung",
+  },
+  description: "Portfolio of Htet Myat Aung, specializing in building modern, scalable, and user-friendly web applications, SaaS products, and digital experiences.",
+  keywords: ["Htet Myat Aung", "Web Engineer", "Product Designer", "Frontend Developer", "Next.js", "React", "Portfolio", "Full-stack Developer", "UI/UX Design"],
+  authors: [{ name: "Htet Myat Aung", url: "https://htetmyataung.com" }],
+  creator: "Htet Myat Aung",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://htetmyataung.com",
+    title: "Htet Myat Aung | Senior Web Engineer & Product Designer",
+    description: "Portfolio of Htet Myat Aung, specializing in building modern, scalable, and user-friendly web applications.",
+    siteName: "Htet Myat Aung Portfolio",
+    images: [
+      {
+        url: "https://htetmyataung.com/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Htet Myat Aung Portfolio",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Htet Myat Aung | Senior Web Engineer & Product Designer",
+    description: "Portfolio of Htet Myat Aung, specializing in building modern, scalable, and user-friendly web applications.",
+    creator: "@htetmyataung",
+    images: ["https://htetmyataung.com/og-image.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 };
 
 export default function RootLayout({
