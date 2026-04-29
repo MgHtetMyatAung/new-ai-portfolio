@@ -6,6 +6,7 @@ import { Services } from "@/components/services";
 import { WorkingProcess } from "@/components/working-process";
 import { Skills } from "@/components/skills";
 import { BentoGrid } from "@/components/bento-grid";
+import { BlogSection } from "@/components/blog-section";
 import { CTA } from "@/components/cta";
 import { Footer } from "@/components/footer";
 
@@ -20,6 +21,7 @@ export default function Home() {
       <WorkingProcess />
       <Skills />
       <BentoGrid />
+      <BlogSection />
       <CTA />
       <Footer />
     </main>

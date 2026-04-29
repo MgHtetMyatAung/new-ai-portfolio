@@ -51,7 +51,7 @@ export default function ProjectDetail() {
       {/* Hero Section */}
       <section
         ref={containerRef}
-        className="relative h-screen flex flex-col justify-end px-6 pb-12 md:pb-24 overflow-hidden"
+        className="relative min-h-[85vh] pt-32 flex flex-col justify-end px-6 pb-12 md:pb-24 overflow-hidden"
       >
         <motion.div style={{ y, opacity }} className="absolute inset-0 z-0">
           <Image
@@ -85,7 +85,7 @@ export default function ProjectDetail() {
             initial={{ opacity: 0, y: 30 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
-            className="text-5xl md:text-7xl lg:text-[9rem] font-black tracking-tighter uppercase leading-none mb-6 text-zinc-900 dark:text-white"
+            className="text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tighter uppercase leading-none mb-6 text-zinc-900 dark:text-white"
           >
             {project.title}
           </motion.h1>
