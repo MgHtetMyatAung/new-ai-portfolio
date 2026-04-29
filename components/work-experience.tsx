@@ -56,7 +56,7 @@ export function WorkExperience() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="flex items-center justify-center md:justify-start gap-4"
             >
-              <span className="text-blue-500 dark:text-blue-400 text-6xl md:text-7xl lg:text-[5rem] xl:text-8xl font-bold tracking-tighter leading-none">
+              <span className="text-blue-500 dark:text-blue-400 text-6xl md:text-7xl lg:text-[5rem] 2xl:text-8xl font-bold tracking-tighter leading-none">
                 {stat.num}
               </span>
               <div className="flex flex-col text-zinc-600 dark:text-zinc-400 font-bold leading-tight uppercase text-xs md:text-sm">

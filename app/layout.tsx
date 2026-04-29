@@ -4,6 +4,7 @@ import "./globals.css"; // Global styles
 import { ThemeProvider } from "@/components/theme-provider";
 import { LanguageProvider } from "@/components/language-provider";
 import { ScrollToTop } from "@/components/scroll-to-top";
+import { SmoothScrolling } from "@/components/smooth-scrolling";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
@@ -30,8 +31,10 @@ export default function RootLayout({
           disableTransitionOnChange
         >
           <LanguageProvider>
-            {children}
-            <ScrollToTop />
+            <SmoothScrolling>
+              {children}
+              <ScrollToTop />
+            </SmoothScrolling>
           </LanguageProvider>
         </ThemeProvider>
       </body>
