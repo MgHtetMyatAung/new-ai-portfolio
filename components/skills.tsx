@@ -16,23 +16,56 @@ import {
   Layers,
   Box,
 } from "lucide-react";
+import {
+  digitalocean,
+  docker,
+  figma,
+  gemini,
+  next,
+  nginx,
+  node,
+  playwright,
+  postgresql,
+  postman,
+  react,
+  reactdom,
+  redux,
+  shadcn,
+  supabase,
+  tailwind,
+  tanstack,
+  typescript,
+  vercel,
+} from "@/assets/icons";
+import Image from "next/image";
 
 export function Skills() {
   const { t } = useLanguage();
 
   const skills = [
-    { name: "React", icon: Atom },
-    { name: "Next.js", icon: Triangle },
-    { name: "TypeScript", icon: FileCode2 },
-    { name: "Tailwind CSS", icon: Wind },
-    { name: "Node.js", icon: Server },
-    { name: "Figma", icon: Figma },
-    { name: "UI/UX Design", icon: PenTool },
-    { name: "Framer Motion", icon: Move },
-    { name: "GraphQL", icon: Share2 },
-    { name: "PostgreSQL", icon: Database },
-    { name: "Prisma", icon: Layers },
-    { name: "Docker", icon: Box },
+    { name: "React", icon: react },
+    { name: "Redux", icon: redux },
+    { name: "React Router", icon: reactdom },
+    { name: "Tanstack Query", icon: tanstack },
+    { name: "Next.js", icon: next },
+    { name: "TypeScript", icon: typescript },
+    { name: "Tailwind CSS", icon: tailwind },
+    { name: "Shadcn UI", icon: shadcn },
+    { name: "Node.js", icon: node },
+    { name: "Figma", icon: figma },
+    // { name: "Vite", icon: PenTool },
+    // { name: "Framer Motion", icon: Move },
+    // { name: "Hono", icon: Share2 },
+    { name: "PostgreSQL", icon: postgresql },
+    { name: "Supabase", icon: supabase },
+    // { name: "Prisma", icon: Layers },
+    { name: "Docker", icon: docker },
+    { name: "Nginx", icon: nginx },
+    { name: "Postman", icon: postman },
+    { name: "Playwright", icon: playwright },
+    { name: "Digital Ocean", icon: digitalocean },
+    { name: "Vercel", icon: vercel },
+    { name: "Gemini", icon: gemini },
   ];
 
   return (
@@ -73,9 +106,9 @@ export function Skills() {
                 stiffness: 100,
               }}
               whileHover={{ scale: 1.05, y: -5 }}
-              className="px-6 py-3 rounded-full border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900 text-zinc-800 dark:text-zinc-200 font-medium text-sm md:text-base shadow-sm hover:shadow-md transition-shadow cursor-default flex items-center gap-2"
+              className="px-4 py-2 rounded-full border border-zinc-200 dark:border-zinc-800 bg-zinc-50 dark:bg-zinc-900 text-zinc-800 dark:text-zinc-200 font-medium text-sm shadow-sm hover:shadow-md transition-shadow cursor-default flex items-center gap-2"
             >
-              <skill.icon className="w-5 h-5 text-orange-500" />
+              <Image src={skill.icon} alt={skill.name} width={17} height={17} />
               {skill.name}
             </motion.div>
           ))}

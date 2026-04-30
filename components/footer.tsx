@@ -1,8 +1,16 @@
 "use client";
 
 import { useLanguage } from "./language-provider";
-import { Github, Twitter, Linkedin, Mail, ArrowUpRight, Send, MessageCircle, Phone } from "lucide-react";
-import { motion } from "motion/react";
+import {
+  Github,
+  Twitter,
+  Linkedin,
+  Mail,
+  ArrowUpRight,
+  Send,
+  MessageCircle,
+  Phone,
+} from "lucide-react";
 
 export function Footer() {
   const { t } = useLanguage();
@@ -17,12 +25,23 @@ export function Footer() {
   ];
 
   const socials = [
-    { name: "GitHub", icon: Github, href: "#" },
-    { name: "Twitter", icon: Twitter, href: "#" },
+    { name: "GitHub", icon: Github, href: "https://github.com/ko-htet-myat" },
     { name: "LinkedIn", icon: Linkedin, href: "#" },
-    { name: "Telegram", icon: Send, href: process.env.NEXT_PUBLIC_TELEGRAM_URL || "#" },
-    { name: "WhatsApp", icon: MessageCircle, href: process.env.NEXT_PUBLIC_WHATSAPP_URL || "#" },
-    { name: "Call", icon: Phone, href: `tel:${process.env.NEXT_PUBLIC_PHONE_NUMBER || "+959770106619"}` },
+    {
+      name: "Telegram",
+      icon: Send,
+      href: process.env.NEXT_PUBLIC_TELEGRAM_URL || "#",
+    },
+    {
+      name: "WhatsApp",
+      icon: MessageCircle,
+      href: process.env.NEXT_PUBLIC_WHATSAPP_URL || "#",
+    },
+    {
+      name: "Call",
+      icon: Phone,
+      href: `tel:${process.env.NEXT_PUBLIC_PHONE_NUMBER || "+959770106619"}`,
+    },
     { name: "Email", icon: Mail, href: "mailto:htetmyataung16000@gmail.com" },
   ];
 
