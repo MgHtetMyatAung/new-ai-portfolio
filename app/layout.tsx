@@ -9,9 +9,9 @@ import { SmoothScrolling } from "@/components/smooth-scrolling";
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://htetmyataung.com"),
+  metadataBase: new URL("https://mhma-portfolio.vercel.app"),
   title: {
-    default: "Htet Myat Aung | Senior Web Engineer",
+    default: "Htet Myat Aung | Senior Web Developer",
     template: "%s | Htet Myat Aung",
   },
   description:
@@ -27,19 +27,21 @@ export const metadata: Metadata = {
     "Full-stack Developer",
     "UI/UX Design",
   ],
-  authors: [{ name: "Htet Myat Aung", url: "https://htetmyataung.com" }],
+  authors: [
+    { name: "Htet Myat Aung", url: "https://mhma-portfolio.vercel.app" },
+  ],
   creator: "Htet Myat Aung",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://htetmyataung.com",
-    title: "Htet Myat Aung | Senior Web Engineer",
+    url: "https://mhma-portfolio.vercel.app",
+    title: "Htet Myat Aung | Senior Web Developer",
     description:
       "Portfolio of Htet Myat Aung, specializing in building modern, scalable, and user-friendly web applications.",
     siteName: "Htet Myat Aung Portfolio",
     images: [
       {
-        url: "https://htetmyataung.com/og-image.jpg",
+        url: "../assets/og.png",
         width: 1200,
         height: 630,
         alt: "Htet Myat Aung Portfolio",
@@ -48,11 +50,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Htet Myat Aung | Senior Web Engineer",
+    title: "Htet Myat Aung | Senior Web Developer",
     description:
       "Portfolio of Htet Myat Aung, specializing in building modern, scalable, and user-friendly web applications.",
     creator: "@htetmyataung",
-    images: ["https://htetmyataung.com/og-image.jpg"],
+    images: ["../assets/og.png"],
   },
   robots: {
     index: true,
