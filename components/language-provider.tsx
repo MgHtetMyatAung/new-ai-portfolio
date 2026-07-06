@@ -18,7 +18,7 @@ const translations = {
     "nav.projects": "Projects",
     "nav.contact": "Contact",
     "hero.badge": "Available for work",
-    "hero.greeting": "Hi, I'm a Developer",
+    "hero.greeting": "Hi, I'm a Frontend Developer",
     "hero.description":
       "I build modern, scalable, and user-friendly applications. Passionate about clean code and great design.",
     "about.title": "About Me",
@@ -50,10 +50,10 @@ const translations = {
     "process.3.num": "03.",
     "process.3.title": "Development",
     "process.3.desc":
-      "After I completed all the processes, goals, and scope, I started to do the development process such as creating basic codes and programming.",
+      "After I completed all the processes, goals, and scope, I started to do the development process such as architecting scalable frontend structures and integrating robust backend services.",
     "projects.title": "Selected Work",
     "projects.desc": "A collection of my recent projects.",
-    "footer.made": "Made with",
+    "footer.made": "Made with ❤️",
     "footer.by": "by me",
     "project.1.title": "E-Commerce Platform",
     "project.1.desc":
@@ -71,7 +71,7 @@ const translations = {
     "cta.button": "HIRE ME",
     "services.title": "Services I Am Providing",
     "services.desc":
-      "I am giving all kind of web service you need with good price. I am ensure quality with unlimited revisions. So you can get best performance web application.",
+      "Providing end-to-end web development and interface design. Committed to delivering pixel-perfect, high-performance applications tailored to your business goals.",
     "services.button": "GET IN TOUCH",
     "services.1.title": "WEB DESIGN",
     "services.1.desc":
@@ -130,7 +130,7 @@ const translations = {
       "လုပ်ငန်းစဉ်များ၊ ရည်မှန်းချက်များနှင့် နယ်ပယ်အားလုံးကို ပြီးစီးပြီးနောက်၊ အခြေခံကုဒ်များဖန်တီးခြင်းနှင့် ပရိုဂရမ်ရေးဆွဲခြင်းကဲ့သို့သော ဖွံ့ဖြိုးတိုးတက်မှုလုပ်ငန်းစဉ်ကို စတင်လုပ်ဆောင်ခဲ့သည်။",
     "projects.title": "ရွေးချယ်ထားသော အလုပ်များ",
     "projects.desc": "ကျွန်တော့်ရဲ့ လတ်တလော ပရောဂျက်များ စုစည်းမှု။",
-    "footer.made": "ဖြင့်ပြုလုပ်သည်",
+    "footer.made": "ဖြင့်ပြုလုပ်သည် ❤️",
     "footer.by": "ကျွန်တော်",
     "project.1.title": "E-Commerce ပလက်ဖောင်း",
     "project.1.desc":

@@ -80,7 +80,7 @@ export function Navbar() {
 
         {/* Actions */}
         <div className="flex items-center gap-1">
-          <button
+          {/* <button
             onClick={() => setLanguage(language === "en" ? "my" : "en")}
             className="p-2 rounded-full hover:bg-zinc-100 dark:hover:bg-zinc-800 transition-colors flex items-center gap-2 text-sm text-zinc-600 dark:text-zinc-400"
             aria-label="Toggle language"
@@ -89,7 +89,7 @@ export function Navbar() {
             <span className="hidden lg:inline-block font-bold uppercase text-[10px]">
               {language}
             </span>
-          </button>
+          </button> */}
 
           {mounted && (
             <button
