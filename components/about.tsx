@@ -4,7 +4,7 @@ import { motion } from "motion/react";
 import { useLanguage } from "./language-provider";
 import Image from "next/image";
 import { Download } from "lucide-react";
-import Photo from "@/assets/photo.jpg";
+import Photo from "@/assets/image.jpg";
 
 export function About() {
   const { t } = useLanguage();

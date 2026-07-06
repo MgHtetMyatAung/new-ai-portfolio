@@ -60,10 +60,10 @@ export function Skills() {
     { name: "Supabase", icon: supabase },
     // { name: "Prisma", icon: Layers },
     { name: "Docker", icon: docker },
-    { name: "Nginx", icon: nginx },
+    // { name: "Nginx", icon: nginx },
     { name: "Postman", icon: postman },
-    { name: "Playwright", icon: playwright },
-    { name: "Digital Ocean", icon: digitalocean },
+    // { name: "Playwright", icon: playwright },
+    // { name: "Digital Ocean", icon: digitalocean },
     { name: "Vercel", icon: vercel },
     { name: "Gemini", icon: gemini },
   ];
